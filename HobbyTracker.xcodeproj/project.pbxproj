@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		634F46B0237E476500FFA57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F46AF237E476500FFA57E /* AppDelegate.swift */; };
-		634F46B2237E476500FFA57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F46B1237E476500FFA57E /* ViewController.swift */; };
-		634F46B5237E476500FFA57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634F46B3237E476500FFA57E /* Main.storyboard */; };
-		634F46B7237E476F00FFA57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634F46B6237E476F00FFA57E /* Assets.xcassets */; };
-		634F46BA237E476F00FFA57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634F46B8237E476F00FFA57E /* LaunchScreen.storyboard */; };
+		38AE3DA4237E475C00302662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE3DA3237E475C00302662 /* AppDelegate.swift */; };
+		38AE3DA6237E475C00302662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE3DA5237E475C00302662 /* SceneDelegate.swift */; };
+		38AE3DA8237E475C00302662 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AE3DA7237E475C00302662 /* FriendsTableViewController.swift */; };
+		38AE3DAB237E475C00302662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AE3DA9237E475C00302662 /* Main.storyboard */; };
+		38AE3DAD237E475D00302662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38AE3DAC237E475D00302662 /* Assets.xcassets */; };
+		38AE3DB0237E475D00302662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38AE3DAE237E475D00302662 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		634F46AC237E476500FFA57E /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		634F46AF237E476500FFA57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		634F46B1237E476500FFA57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		634F46B4237E476500FFA57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		634F46B6237E476F00FFA57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		634F46B9237E476F00FFA57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		634F46BB237E476F00FFA57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38AE3DA0237E475C00302662 /* HobbyTracker(iOSPT4).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HobbyTracker(iOSPT4).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AE3DA3237E475C00302662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38AE3DA5237E475C00302662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38AE3DA7237E475C00302662 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		38AE3DAA237E475C00302662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38AE3DAC237E475D00302662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38AE3DAF237E475D00302662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38AE3DB1237E475D00302662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		634F46A9237E476500FFA57E /* Frameworks */ = {
+		38AE3D9D237E475C00302662 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		634F46A3237E476500FFA57E = {
+		38AE3D97237E475C00302662 = {
 			isa = PBXGroup;
 			children = (
-				634F46AE237E476500FFA57E /* HobbyTracker */,
-				634F46AD237E476500FFA57E /* Products */,
+				38AE3DA2237E475C00302662 /* HobbyTracker(iOSPT4) */,
+				38AE3DA1237E475C00302662 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		634F46AD237E476500FFA57E /* Products */ = {
+		38AE3DA1237E475C00302662 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				634F46AC237E476500FFA57E /* HobbyTracker.app */,
+				38AE3DA0237E475C00302662 /* HobbyTracker(iOSPT4).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		634F46AE237E476500FFA57E /* HobbyTracker */ = {
+		38AE3DA2237E475C00302662 /* HobbyTracker(iOSPT4) */ = {
 			isa = PBXGroup;
 			children = (
-				634F46AF237E476500FFA57E /* AppDelegate.swift */,
-				634F46B1237E476500FFA57E /* ViewController.swift */,
-				634F46B3237E476500FFA57E /* Main.storyboard */,
-				634F46B6237E476F00FFA57E /* Assets.xcassets */,
-				634F46B8237E476F00FFA57E /* LaunchScreen.storyboard */,
-				634F46BB237E476F00FFA57E /* Info.plist */,
+				38AE3DA3237E475C00302662 /* AppDelegate.swift */,
+				38AE3DA5237E475C00302662 /* SceneDelegate.swift */,
+				38AE3DA7237E475C00302662 /* FriendsTableViewController.swift */,
+				38AE3DA9237E475C00302662 /* Main.storyboard */,
+				38AE3DAC237E475D00302662 /* Assets.xcassets */,
+				38AE3DAE237E475D00302662 /* LaunchScreen.storyboard */,
+				38AE3DB1237E475D00302662 /* Info.plist */,
 			);
-			path = HobbyTracker;
+			path = "HobbyTracker(iOSPT4)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		634F46AB237E476500FFA57E /* HobbyTracker */ = {
+		38AE3D9F237E475C00302662 /* HobbyTracker(iOSPT4) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 634F46BE237E476F00FFA57E /* Build configuration list for PBXNativeTarget "HobbyTracker" */;
+			buildConfigurationList = 38AE3DB4237E475D00302662 /* Build configuration list for PBXNativeTarget "HobbyTracker(iOSPT4)" */;
 			buildPhases = (
-				634F46A8237E476500FFA57E /* Sources */,
-				634F46A9237E476500FFA57E /* Frameworks */,
-				634F46AA237E476500FFA57E /* Resources */,
+				38AE3D9C237E475C00302662 /* Sources */,
+				38AE3D9D237E475C00302662 /* Frameworks */,
+				38AE3D9E237E475C00302662 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HobbyTracker;
-			productName = HobbyTracker;
-			productReference = 634F46AC237E476500FFA57E /* HobbyTracker.app */;
+			name = "HobbyTracker(iOSPT4)";
+			productName = "HobbyTracker(iOSPT4)";
+			productReference = 38AE3DA0237E475C00302662 /* HobbyTracker(iOSPT4).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		634F46A4237E476500FFA57E /* Project object */ = {
+		38AE3D98237E475C00302662 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
-				ORGANIZATIONNAME = "Gerardo Hernandez";
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Lambda, Inc";
 				TargetAttributes = {
-					634F46AB237E476500FFA57E = {
-						CreatedOnToolsVersion = 10.3;
+					38AE3D9F237E475C00302662 = {
+						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 634F46A7237E476500FFA57E /* Build configuration list for PBXProject "HobbyTracker" */;
+			buildConfigurationList = 38AE3D9B237E475C00302662 /* Build configuration list for PBXProject "HobbyTracker(iOSPT4)" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 634F46A3237E476500FFA57E;
-			productRefGroup = 634F46AD237E476500FFA57E /* Products */;
+			mainGroup = 38AE3D97237E475C00302662;
+			productRefGroup = 38AE3DA1237E475C00302662 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				634F46AB237E476500FFA57E /* HobbyTracker */,
+				38AE3D9F237E475C00302662 /* HobbyTracker(iOSPT4) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		634F46AA237E476500FFA57E /* Resources */ = {
+		38AE3D9E237E475C00302662 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634F46BA237E476F00FFA57E /* LaunchScreen.storyboard in Resources */,
-				634F46B7237E476F00FFA57E /* Assets.xcassets in Resources */,
-				634F46B5237E476500FFA57E /* Main.storyboard in Resources */,
+				38AE3DB0237E475D00302662 /* LaunchScreen.storyboard in Resources */,
+				38AE3DAD237E475D00302662 /* Assets.xcassets in Resources */,
+				38AE3DAB237E475C00302662 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		634F46A8237E476500FFA57E /* Sources */ = {
+		38AE3D9C237E475C00302662 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634F46B2237E476500FFA57E /* ViewController.swift in Sources */,
-				634F46B0237E476500FFA57E /* AppDelegate.swift in Sources */,
+				38AE3DA8237E475C00302662 /* FriendsTableViewController.swift in Sources */,
+				38AE3DA4237E475C00302662 /* AppDelegate.swift in Sources */,
+				38AE3DA6237E475C00302662 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		634F46B3237E476500FFA57E /* Main.storyboard */ = {
+		38AE3DA9237E475C00302662 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				634F46B4237E476500FFA57E /* Base */,
+				38AE3DAA237E475C00302662 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		634F46B8237E476F00FFA57E /* LaunchScreen.storyboard */ = {
+		38AE3DAE237E475D00302662 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				634F46B9237E476F00FFA57E /* Base */,
+				38AE3DAF237E475D00302662 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		634F46BC237E476F00FFA57E /* Debug */ = {
+		38AE3DB2237E475D00302662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,7 +198,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -213,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -223,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		634F46BD237E476F00FFA57E /* Release */ = {
+		38AE3DB3237E475D00302662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,7 +258,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -268,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -278,34 +280,36 @@
 			};
 			name = Release;
 		};
-		634F46BF237E476F00FFA57E /* Debug */ = {
+		38AE3DB5237E475D00302662 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HobbyTracker/Info.plist;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = "HobbyTracker(iOSPT4)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gerardohernandez.HobbyTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnhicks.HobbyTracker-iOSPT4-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		634F46C0237E476F00FFA57E /* Release */ = {
+		38AE3DB6237E475D00302662 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HobbyTracker/Info.plist;
+				DEVELOPMENT_TEAM = VXUQXR6S56;
+				INFOPLIST_FILE = "HobbyTracker(iOSPT4)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gerardohernandez.HobbyTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnhicks.HobbyTracker-iOSPT4-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		634F46A7237E476500FFA57E /* Build configuration list for PBXProject "HobbyTracker" */ = {
+		38AE3D9B237E475C00302662 /* Build configuration list for PBXProject "HobbyTracker(iOSPT4)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				634F46BC237E476F00FFA57E /* Debug */,
-				634F46BD237E476F00FFA57E /* Release */,
+				38AE3DB2237E475D00302662 /* Debug */,
+				38AE3DB3237E475D00302662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		634F46BE237E476F00FFA57E /* Build configuration list for PBXNativeTarget "HobbyTracker" */ = {
+		38AE3DB4237E475D00302662 /* Build configuration list for PBXNativeTarget "HobbyTracker(iOSPT4)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				634F46BF237E476F00FFA57E /* Debug */,
-				634F46C0237E476F00FFA57E /* Release */,
+				38AE3DB5237E475D00302662 /* Debug */,
+				38AE3DB6237E475D00302662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 634F46A4237E476500FFA57E /* Project object */;
+	rootObject = 38AE3D98237E475C00302662 /* Project object */;
 }
