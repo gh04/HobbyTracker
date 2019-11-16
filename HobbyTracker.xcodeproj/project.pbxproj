@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		634F46B0237E476500FFA57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F46AF237E476500FFA57E /* AppDelegate.swift */; };
-		634F46B2237E476500FFA57E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F46B1237E476500FFA57E /* ViewController.swift */; };
+		634F46B2237E476500FFA57E /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F46B1237E476500FFA57E /* FriendsTableViewController.swift */; };
 		634F46B5237E476500FFA57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634F46B3237E476500FFA57E /* Main.storyboard */; };
 		634F46B7237E476F00FFA57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634F46B6237E476F00FFA57E /* Assets.xcassets */; };
 		634F46BA237E476F00FFA57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634F46B8237E476F00FFA57E /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		634F46AC237E476500FFA57E /* HobbyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HobbyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634F46AF237E476500FFA57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		634F46B1237E476500FFA57E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		634F46B1237E476500FFA57E /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 		634F46B4237E476500FFA57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		634F46B6237E476F00FFA57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634F46B9237E476F00FFA57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				634F46AF237E476500FFA57E /* AppDelegate.swift */,
-				634F46B1237E476500FFA57E /* ViewController.swift */,
+				634F46B1237E476500FFA57E /* FriendsTableViewController.swift */,
 				634F46B3237E476500FFA57E /* Main.storyboard */,
 				634F46B6237E476F00FFA57E /* Assets.xcassets */,
 				634F46B8237E476F00FFA57E /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634F46B2237E476500FFA57E /* ViewController.swift in Sources */,
+				634F46B2237E476500FFA57E /* FriendsTableViewController.swift in Sources */,
 				634F46B0237E476500FFA57E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
